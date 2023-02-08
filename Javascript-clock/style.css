@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+.clock {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+
+#MyDay {
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+#MyClockDisplay {
+  font-size: 8rem;
+  font-weight: 600;
+}

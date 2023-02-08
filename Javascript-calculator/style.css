@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
+.calculator {
+  width: 500px;
+}
+
+.grid {
+  display: grid;
+  grid-template: repeat(5, 1fr) / repeat(4, 1fr) ;
+  gap: 1rem;
+}
+
+#btn0 {
+  grid-column: 1 / 3;
+}
